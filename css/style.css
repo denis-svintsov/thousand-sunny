@@ -390,7 +390,7 @@ body._touch .menu__item._active .menu__arrow {
 		left: -100%;
 		width: 100%;
 		height: 100%;
-		background: rgba(255, 255, 255, 0.9);
+		background: rgba(255, 255, 255, 0.95);
 		padding: 100px 30px 30px 30px;
 		transition: left 0.3s ease 0s;
 		overflow: auto;
@@ -784,12 +784,12 @@ body._touch .menu__item._active .menu__arrow {
 	padding: 0px 12.5px;
 	margin-bottom: 30px;
 }
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 	.destinations__column {
 		flex: 0 1 50%;
 	}
 }
-@media (max-width: 445px) {
+@media (max-width: 767px) {
 	.destinations__column {
 		flex: 0 1 100%;
 	}
