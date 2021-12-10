@@ -789,7 +789,7 @@ body._touch .menu__item._active .menu__arrow {
 		flex: 0 1 50%;
 	}
 }
-@media (max-width: 380px) {
+@media (max-width: 445px) {
 	.destinations__column {
 		flex: 0 1 100%;
 	}
