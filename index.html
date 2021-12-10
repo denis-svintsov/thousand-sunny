@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Thousand Sunny</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<div class="header__body">
+					<a href="#" class="header__logo logo"><img src="img/logo.png" alt="thousand-sunny"></a>
+					<div class="header__menu menu">
+						<div class="menu__icon">
+							<span></span>
+						</div>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a data-goto=".page" href="#" class="menu__link menu__link_active">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Destinations</a>
+									<span class="menu__arrow"></span>
+									<ul class="menu__sub-list">
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Item 1</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Item 2</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Item 3</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item">
+									<a data-goto=".find" href="#" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Partner</a>
+								</li>
+							</ul>
+							<div class="header__buttons">
+								<a href="#" class="header__button header__button_white button">Login</a>
+								<a href="#" class="header__button button">Register</a>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__header-block header-block">
+				<div class="header-block__container _container">
+					<div class="header-block__body">
+						<div class="header-block__content">
+							<h1 class="header-block__title title">Explore and Travel</h1>
+							<form action="#" class="header-block__form form">
+								<div class="form__title">Holiday finder</div>
+								<div class="form__selects">
+									<div class="form__select select">
+										<select class="select__item">
+											<option value="">Location</option>
+											<option value="odessa">Odessa</option>
+										</select>
+									</div>
+									<div class="form__select select">
+										<select class="select__item">
+											<option value="">Activity</option>
+											<option value="odessa">Odessa</option>
+										</select>
+									</div>
+									<div class="form__select select">
+										<select class="select__item">
+											<option value="">Grade</option>
+											<option value="odessa">Odessa</option>
+										</select>
+									</div>
+									<div class="form__select select">
+										<select class="select__item">
+											<option value="">Date</option>
+											<option value="odessa">Odessa</option>
+										</select>
+									</div>
+								</div>
+								<button type="submit" class="form__button button">Explore</button>
+							</form>
+						</div>
+						<div class="header-block__image">
+							<img src="img/header-block/header-block.jpg" alt="Explore and Travel">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__new-way content-block">
+				<div class="content-block__container _container">
+					<div class="content-block__body">
+						<div class="content-block__image">
+							<img src="img/new-way/new-way.jpg" alt="A new way to explore the world">
+						</div>
+						<div class="content-block__content">
+							<h2 class="content-block__title title">A new way to explore the world</h2>
+							<div class="content-block__text">
+								For decades travellers have reached for Lonely Planet books when looking to plan and execute
+								their
+								perfect trip, but now, they can also let Lonely Planet Experiences lead the way
+							</div>
+							<a href="#" class="content-block__button button">Learn more</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__destinations destinations">
+				<div class="destinations__container _container">
+					<div class="destinations__header content-header">
+						<h2 class="content-header__title title">Featured destinations</h2>
+						<a href="#" class="content-header__link">View all</a>
+					</div>
+					<div class="destinations__body">
+						<div class="destinations__column">
+							<div class="destinations__item item-destination">
+								<div class="item-destination__image">
+									<a href="#">
+										<img src="img/destinations/raja-ampat.jpg" alt="Raja Ampat">
+									</a>
+								</div>
+								<div class="item-destination__content">
+									<a href="#">
+										<div class="item-destination__city">Raja Ampat</div>
+										<div class="item-destination__country">Indonesia</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="destinations__column">
+							<div class="destinations__item item-destination">
+								<div class="item-destination__image">
+									<a href="#">
+										<img src="img/destinations/fanjingshan.jpg" alt="Fanjingshan">
+									</a>
+								</div>
+								<div class="item-destination__content">
+									<a href="#">
+										<div class="item-destination__city">Fanjingshan</div>
+										<div class="item-destination__country">China</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="destinations__column">
+							<div class="destinations__item item-destination">
+								<div class="item-destination__image">
+									<a href="#">
+										<img src="img/destinations/vevey.jpg" alt="Vevey">
+									</a>
+								</div>
+								<div class="item-destination__content">
+									<a href="#">
+										<div class="item-destination__city">Vevey</div>
+										<div class="item-destination__country">Switzerland</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="destinations__column">
+							<div class="destinations__item item-destination">
+								<div class="item-destination__image">
+									<a href="#">
+										<img src="img/destinations/skadar.jpg" alt="Skadar">
+									</a>
+								</div>
+								<div class="item-destination__content">
+									<a href="#">
+										<div class="item-destination__city">Skadar</div>
+										<div class="item-destination__country">Montenegro</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__guides content-block">
+				<div class="content-block__container _container">
+					<div class="content-block__body">
+						<div class="content-block__content">
+							<h2 class="content-block__title title">Guides by Thousand Sunny</h2>
+							<div class="content-block__text">
+								Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and
+								Android) is the ultimate resource before and during a trip.
+							</div>
+							<a href="#" class="content-block__button button">Download</a>
+						</div>
+						<div class="content-block__image">
+							<img src="img/guides/guides.jpg" alt="Guides by Thousand Sunny">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__trending-stories trending-stories">
+				<div class="trending-stories__container _container">
+					<div class="destinations__header content-header">
+						<h2 class="content-header__title title">Featured destinations</h2>
+						<a href="#" class="content-header__link">View all</a>
+					</div>
+					<div class="trending-stories__body">
+						<div class="trending-stories__column">
+							<div class="trending-stories__item trending-story">
+								<div class="trending-story__image">
+									<a href="#">
+										<img src="img/trending-stories/01.jpg" alt="">
+									</a>
+								</div>
+								<div class="trending-story__content">
+									<div class="trending-story__title">The many benefits of taking a healing holiday</div>
+									<div class="trending-story__text">
+										‘Helaing holidays’ are on the rise tohelp maximise your health and happines...
+									</div>
+									<a href="#" class="trending-story__link">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="trending-stories__column">
+							<div class="trending-stories__item trending-story">
+								<div class="trending-story__image">
+									<a href="#">
+										<img src="img/trending-stories/02.jpg" alt="">
+									</a>
+								</div>
+								<div class="trending-story__content">
+									<div class="trending-story__title">The many benefits of taking a healing holiday</div>
+									<div class="trending-story__text">
+										‘Helaing holidays’ are on the rise tohelp maximise your health and happines...
+									</div>
+									<a href="#" class="trending-story__link">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="trending-stories__column">
+							<div class="trending-stories__item trending-story">
+								<div class="trending-story__image">
+									<a href="#">
+										<img src="img/trending-stories/03.jpg" alt="">
+									</a>
+								</div>
+								<div class="trending-story__content">
+									<div class="trending-story__title">The many benefits of taking a healing holiday</div>
+									<div class="trending-story__text">
+										‘Helaing holidays’ are on the rise tohelp maximise your health and happines...
+									</div>
+									<a href="#" class="trending-story__link">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="trending-stories__column">
+							<div class="trending-stories__item trending-story">
+								<div class="trending-story__image">
+									<a href="#">
+										<img src="img/trending-stories/04.jpg" alt="">
+									</a>
+								</div>
+								<div class="trending-story__content">
+									<div class="trending-story__title">The many benefits of taking a healing holiday</div>
+									<div class="trending-story__text">
+										‘Helaing holidays’ are on the rise tohelp maximise your health and happines...
+									</div>
+									<a href="#" class="trending-story__link">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container _container">
+				<div class="footer__main">
+					<div class="footer__info">
+						<a href="#" class="footer__logo logo">
+							<img src="img/logo.png" alt="thousand-sunny">
+						</a>
+						<div class="footer__text">
+							Plan and book your perfect trip with expert advice, travel tips destination information from us
+						</div>
+						<div class="footer__copy">©2020 Thousand Sunny. All rights reserved</div>
+					</div>
+					<div class="footer__activity">
+						<div class="footer__column">
+							<div class="footer__label spoiler">Destinations</div>
+							<ul class="footer__list spoiler-item">
+								<li class="footer__item">
+									<a href="#" class="footer__link">Africa</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Antarctica</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Asia</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Asia</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">America</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__column">
+							<div class="footer__label spoiler">Shop</div>
+							<ul class="footer__list spoiler-item">
+								<li class="footer__item">
+									<a href="#" class="footer__link">Destination Guides</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Pictorial & Gifts</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Special Offers</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Delivery Times</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">FAQs</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__column">
+							<div class="footer__label spoiler">Interests</div>
+							<ul class="footer__list spoiler-item">
+								<li class="footer__item">
+									<a href="#" class="footer__link">Adventure Travel</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Art And Culture</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Wildlife And Nature</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Family Holidays</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Food And Drink</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__social social">
+					<a href="#" class="social__link">
+						<img src="img/icons/twitter.svg" alt="twitter">
+					</a>
+					<a href="#" class="social__link">
+						<img src="img/icons/facebook.svg" alt="facebook">
+					</a>
+					<a href="#" class="social__link">
+						<img src="img/icons/instagram.svg" alt="instagram">
+					</a>
+					<a href="#" class="social__link">
+						<img src="img/icons/in.svg" alt="in">
+					</a>
+					<a href="#" class="social__link">
+						<img src="img/icons/youtube.svg" alt="youtube">
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
